@@ -1,0 +1,18 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /users                    --> messanger/controllers.CreateUser (5 handlers)
+[GIN-debug] PUT    /users                    --> messanger/controllers.UpdateUser (5 handlers)
+[GIN-debug] GET    /users/:id                --> messanger/controllers.GetUserByID (5 handlers)
+[GIN-debug] DELETE /users/:id                --> messanger/controllers.DeleteUserByID (5 handlers)
+[GIN-debug] POST   /users/login              --> messanger/controllers.GetToken (5 handlers)
+[GIN-debug] POST   /messages                 --> messanger/controllers.CreateMessage (5 handlers)
+[GIN-debug] PUT    /messages                 --> messanger/controllers.UpdateMessage (5 handlers)
+[GIN-debug] DELETE /messages/:id             --> messanger/controllers.DeleteMessageByID (5 handlers)
+[GIN-debug] GET    /messages/:id             --> messanger/controllers.GetMessages (5 handlers)
+[GIN-debug] POST   /rooms                    --> messanger/controllers.CreateRoom (5 handlers)
+[GIN-debug] Listening and serving HTTP on :9999
+[GIN] 2021/01/02 - 16:55:22 | 200 |    59.63848ms |       127.0.0.1 | PUT      "/users"
